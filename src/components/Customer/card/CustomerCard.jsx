@@ -1,5 +1,6 @@
 import React from 'react'
 import Style from './CustomerCard.module.scss';
+import LeftImg from '/src/assets/customerImages/arrow.svg';
 
 const CustomerCard = ( { custCardImg, custCardTitle } ) => {
   return (
@@ -7,7 +8,7 @@ const CustomerCard = ( { custCardImg, custCardTitle } ) => {
       <img src={custCardImg} alt="card image" className={Style.custCardImg} />
       <h1 className={Style.custCardTitle}>{custCardTitle}</h1>
       <p className={Style.custCardText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      <a href="#" className={Style.custCardLink}>Learn More <img src="/src/assets/customerImages/arrow.svg" alt="" /></a>
+      <a href="#" className={Style.custCardLink}>Learn More <img src={LeftImg} alt="" /></a>
     </div>
   )
 }

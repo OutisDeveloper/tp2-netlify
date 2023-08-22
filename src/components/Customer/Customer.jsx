@@ -11,7 +11,7 @@ import card6 from '/src/assets/customerImages/card6.png'
 const Customer = () => {
   const cardData = [
     {
-      custCardImg: { card1 },
+      custCardImg: '../../assets/customerImages/card1.png',
       custCardTitle: 'Recieve',
     },
     {
