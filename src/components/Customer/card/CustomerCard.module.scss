@@ -1,0 +1,49 @@
+.customerCard * {
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+.customerCard {
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+  margin-bottom: 30px;
+  max-width: 380px;
+  max-height: 525px;
+  border-radius: 10px;
+  background-color: red;
+  background-color: #fff;
+  box-shadow: 5px 20px 50px 0px rgba(74, 153, 211, 0.2);
+  .custCardImg {
+    width: 182px;
+    height: 132px;
+    margin-bottom: 56px;
+  }
+  .customCardTitle {
+    color: #0f001a;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .custCardText {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 284px;
+    line-height: 26px;
+    margin-bottom: 62px;
+  }
+  .custCardLink {
+    color: #4a99d3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+    display: flex;
+    align-items: center;
+    img {
+      margin-left: 15px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
