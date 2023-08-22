@@ -1,30 +1,37 @@
 import React from 'react';
 import Style from './Customer.module.scss';
 import CustomerCard from './card/CustomerCard';
+import card1 from '/src/assets/customerImages/card1.png'
+import card2 from '/src/assets/customerImages/card2.png'
+import card3 from '/src/assets/customerImages/card3.png'
+import card4 from '/src/assets/customerImages/card4.png'
+import card5 from '/src/assets/customerImages/card5.png'
+import card6 from '/src/assets/customerImages/card6.png'
+
 const Customer = () => {
   const cardData = [
     {
-      custCardImg: '/src/assets/customerImages/card1.png',
+      custCardImg: { card1 },
       custCardTitle: 'Recieve',
     },
     {
-      custCardImg: '/src/assets/customerImages/card2.png',
+      custCardImg: { card2 },
       custCardTitle: 'Send',
     },
     {
-      custCardImg: '/src/assets/customerImages/card3.png',
+      custCardImg: { card3 },
       custCardTitle: 'Buy',
     },
     {
-      custCardImg: '/src/assets/customerImages/card4.png',
+      custCardImg: { card4 },
       custCardTitle: 'Recieve',
     },
     {
-      custCardImg: '/src/assets/customerImages/card5.png',
+      custCardImg: { card5 },
       custCardTitle: 'Send',
     },
     {
-      custCardImg: '/src/assets/customerImages/card6.png',
+      custCardImg: { card6 },
       custCardTitle: 'Buy',
     }
   ]
