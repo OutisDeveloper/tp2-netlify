@@ -5,8 +5,8 @@ import card1 from '../../assets/customerImages/card1.png'
 import card2 from '../../assets/customerImages/card2.png'
 import card3 from '../../assets/customerImages/card3.png'
 import card4 from '../../assets/customerImages/card4.png'
-import card5 from '../../assets/customerImages/card5.png'
-import card6 from '../../assets/customerImages/card6.png'
+import card5 from '/src/assets/customerImages/card5.png'
+import card6 from '/src/assets/customerImages/card6'
 
 const Customer = () => {
   const cardData = [
