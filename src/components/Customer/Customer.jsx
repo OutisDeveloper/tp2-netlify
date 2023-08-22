@@ -19,7 +19,7 @@ const Customer = () => {
       custCardTitle: 'Send',
     },
     {
-      custCardImg: { card3 },
+      custCardImg: '/src/assets/customerImages/card3.png',
       custCardTitle: 'Buy',
     },
     {
