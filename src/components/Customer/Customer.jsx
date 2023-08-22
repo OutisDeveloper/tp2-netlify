@@ -11,11 +11,11 @@ import card6 from '/src/assets/customerImages/card6.png'
 const Customer = () => {
   const cardData = [
     {
-      custCardImg: '/src/assets/customerImages/card1.png',
+      custCardImg: card1,
       custCardTitle: 'Recieve',
     },
     {
-      custCardImg: '/src/assets/customerImages/card2.png',
+      custCardImg: card2,
       custCardTitle: 'Send',
     },
     {
