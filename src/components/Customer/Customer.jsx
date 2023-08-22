@@ -27,7 +27,7 @@ const Customer = () => {
       custCardTitle: 'Recieve',
     },
     {
-      custCardImg: { card5 },
+      custCardImg: card5,
       custCardTitle: 'Send',
     },
     {
