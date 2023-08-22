@@ -19,7 +19,7 @@ const Customer = () => {
       custCardTitle: 'Send',
     },
     {
-      custCardImg: { card3 },
+      custCardImg: card3,
       custCardTitle: 'Buy',
     },
     {
