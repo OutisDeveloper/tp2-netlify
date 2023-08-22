@@ -6,7 +6,7 @@ import card2 from '../../assets/customerImages/card2.png'
 import card3 from '../../assets/customerImages/card3.png'
 import card4 from '../../assets/customerImages/card4.png'
 import card5 from '/src/assets/customerImages/card5.png'
-import card6 from '/src/assets/customerImages/card6'
+import card6 from '/src/assets/customerImages/card6.png'
 
 const Customer = () => {
   const cardData = [
@@ -15,7 +15,7 @@ const Customer = () => {
       custCardTitle: 'Recieve',
     },
     {
-      custCardImg: '../../assets/customerImages/card2.png',
+      custCardImg: '/src/assets/customerImages/card2.png',
       custCardTitle: 'Send',
     },
     {
@@ -23,7 +23,7 @@ const Customer = () => {
       custCardTitle: 'Buy',
     },
     {
-      custCardImg: { card4 },
+      custCardImg: card4,
       custCardTitle: 'Recieve',
     },
     {
@@ -31,7 +31,7 @@ const Customer = () => {
       custCardTitle: 'Send',
     },
     {
-      custCardImg: { card6 },
+      custCardImg: card6,
       custCardTitle: 'Buy',
     }
   ]
